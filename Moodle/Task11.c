@@ -1,3 +1,48 @@
+/* Write a C Program to Implement DFT Operations.
+Test cases:
+case = t1
+input=5
+0 1 1 1 0     
+1 0 0 0 1                           
+1 0 0 0 1
+1 0 0 0 1
+0 1 1 1 0
+1
+output=
+1 2 5 3 4
+
+case = t2
+input = 3
+0 1 1 
+0 0 0 
+0 1 0
+1
+output=
+1 2 3 
+
+case = t3
+input=4
+0 1 1 0                                                                         
+0 0 1 0                                                                         
+1 0 0 1                                                                         
+0 0 0 1
+1
+output=
+1 2 3 4
+
+case = t4
+input = 4
+0 1 1 0
+0 0 1 0
+1 0 0 1
+0 0 0 1
+2
+output=
+2 3 1 4
+
+
+*/
+
 #include<stdio.h>
 
 void DFS(int);
